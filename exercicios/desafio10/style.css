@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1#MainTitle{
+    text-align: center;
+}
+body{
+    background-color: #84E1AD;
+}
+header{
+    background-image: linear-gradient(to bottom, #3BD17F, #1A5C38);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: -10px -10px -10px -10px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.459);
+    
+}
+header > p{
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+header > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 10px 10px 10px 10px;
+}
+header > a:hover{
+    text-decoration: underline;
+    background-color: #268852;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+    
+}
+main{
+    text-align: center;
+    width: auto;
+    background-color: white;
+    margin: auto;
+}
+main >h1{
+    color: #195C38;
+    font-family: 'android';
+    text-align: left;
+    text-indent: 20px;
+    padding-top: 5px;
+}
+main > h2{
+    background-image: linear-gradient(to right, #8AB99F, white);
+    text-align: left;
+    font-family: 'android';
+    text-indent: 10px;
+    color: #195C38;
+    margin: 0px 10px 0px 10px;
+    padding: 5px 0px 5px 0px;
+}
+article{
+    padding: 0px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article > p{
+    text-align: justify;
+    text-indent: 20px;
+}
+article > p > a{
+    color: #195C38;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+article > picture{
+    margin: auto;
+}
+article#video{
+    background-color: #063D1E;
+}
+a.linkO{
+    color: #1A5C37;
+    background-color: #83E1AD;
+    padding: 5px;
+}
+a.linkO:hover{
+    text-decoration: underline;
+}
+a.linkO::after{
+    content: '\01F517';
+}
+footer{
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+    <style>
+        /* medidas absolutas:
+        centimetro , milimetro, polegada, pixel, ponto, paica
+            cm          mm         in      px     pt     pc
+            
+            Medidas Relativas
+            em: relativo a altura atual da fonte
+            ex: relativo a altura atual do x
+            rem: relativo a fonte configurada no body(root)
+            vw: relativo a altura da tela 
+            vh: relativo a altura da view port (tela)
+            Medidas recomendadas da w3c
+            EM (1em eh o normal)
+            PX (16px eh o normal)
+            1 em = 16px  
+
+            */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+        }
+        h1,h2{
+            /*font-family: serif;
+            text-decoration: underline;
+            font-style: italic;*/
+            font: italic bolder 3em arial, sans-serif ;
+            /*font = font style -> font wheight -> font size -> font family */
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id amet libero inventore odio repellendus, non nihil tenetur reprehenderit commodi voluptatum exercitationem itaque perspiciatis numquam natus porro error cumque tempore ratione.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam soluta sed, laborum rem ullam illum eveniet quis facilis debitis laudantium, nobis accusantium nemo impedit dicta numquam magnam! Tempore, unde voluptates.</p>
+    
+</body>
+</html>
