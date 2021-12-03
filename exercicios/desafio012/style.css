@@ -1,0 +1,68 @@
+@charset "UTF-8";
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: -36px;
+    margin-left: -8px;
+    margin-right: -2px;
+}
+header h1{
+    font-size: 40pt;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+header p{
+    padding-bottom: 30px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+div.estrofe{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+div.estrofe p{
+    min-height: 400px;
+    max-width: 400px;
+    font-size: 30pt;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+div#fundoFlor{
+    background-color: white;
+    background-image: url(imagens/background001.jpg);
+}
+
+div#fundoFlor p{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+}
+div#fundoLivro{
+    background-color: white;
+    background-image: url(imagens/background002.jpg);
+}
+div#fundoLivro p{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 16pt;
+    padding: 0px 1px 0px 1px;
+    margin-bottom: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 1px;
+}
