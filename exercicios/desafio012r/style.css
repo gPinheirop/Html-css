@@ -49,6 +49,9 @@ section{
     font-family: var(--fonte3);
     font-size: 3vw;
 }
+section >p{
+    padding-bottom: 1em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -56,11 +59,22 @@ section.normal{
 section.imagem{
     color: white;
     background-color: gray;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-attachment: fixed;
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.062);
+    background-color: rgba(0, 0, 0, 0.411);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url(../desafio012r/imagens/background001.jpg);
+}
+section#img02{
+    background-image: url(../desafio012r/imagens/background002.jpg);
 }
 footer{
     background-color: black;
